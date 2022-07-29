@@ -8,7 +8,6 @@ function slideShow() {
     else {
         i=0;
     }
-
-    setTimeout("slideShow()" , 2000);
+    setTimeout("slideShow()" , 1000);
 }
 window.onload = slideShow;
